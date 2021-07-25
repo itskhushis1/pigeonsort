@@ -13,6 +13,7 @@ def pigeonhole_sort(a):
     for x in a:
         assert type(x) is int, "integers only please"
         holes[x - my_min] += 1
+        
   
     # Put the elements back into the array in order.
     i = 0
