@@ -7,6 +7,7 @@ def pigeonhole_sort(a):
     size = my_max - my_min + 1
   
     # our list of pigeonholes
+    
     holes = [0] * size
   
     # Populate the pigeonholes.
