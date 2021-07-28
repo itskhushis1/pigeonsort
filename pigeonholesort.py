@@ -1,5 +1,4 @@
 def pigeonhole_sort(a):
-    
     # size of range of values in the list 
     # (ie, number of pigeonholes we need)
     my_min = min(a)
@@ -26,6 +25,7 @@ def pigeonhole_sort(a):
               
   
 a = [8, 3, 2, 7, 4, 6, 8]
+
 print("Sorted order is : ", end =" ")
   
 pigeonhole_sort(a)
