@@ -10,6 +10,7 @@ def pigeonhole_sort(a):
     holes = [0] * size
   
     # Populate the pigeonholes.
+    
     for x in a:
         assert type(x) is int, "integers only please"
         holes[x - my_min] += 1
