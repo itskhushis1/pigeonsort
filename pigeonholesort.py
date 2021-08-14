@@ -24,6 +24,7 @@ def pigeonhole_sort(a):
             a[i] = count + my_min
             i += 1
               
+                
   
 a = [8, 3, 2, 7, 4, 6, 8]
 
