@@ -6,7 +6,6 @@ def pigeonhole_sort(a):
     my_max = max(a)
     size = my_max - my_min + 1
   
-
     # our list of pigeonholes
     
     holes = [0] * size
